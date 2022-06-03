@@ -16,5 +16,5 @@ jobs:
       - name: Push to Gitopia mirror
         uses: gitopia/gitopia-mirror-action@v0.4.0
         with:
-          gitopiaWallet: "${{secrets.GITOPIA_WALLET}}"
+          gitopiaWallet: "{\"name\":\"rt\",\"mnemonic\":\"focus appear size snack require ripple empty picnic load bus size spring lemon vacant ostrich mail bracket parrot hope know safe segment minor universe\",\"HDpath\":\"m/44'/118'/0'/0/\",\"password\":\"password\",\"prefix\":\"gitopia\",\"pathIncrement\":0,\"accounts\":[{\"address\":\"gitopia1hrz65mjx9xcmm570l09wjwvt0d74cmln9q79ts\",\"pathIncrement\":0}]}"
           remoteUrl: "gitopia://gitopia1hrz65mjx9xcmm570l09wjwvt0d74cmln9q79ts/newnewew"
