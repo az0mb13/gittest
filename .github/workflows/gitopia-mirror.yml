@@ -3,7 +3,7 @@ name: Mirror to Gitopia
 on:
   push:
     branches:
-      - '../../../../testx'
+      '**'
 
 jobs:
   build:
